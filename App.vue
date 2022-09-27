@@ -1,7 +1,9 @@
 <script>
+import tool from '@/lib/function'
 	export default {
 		onLaunch: function() {
 			console.log('App Launch')
+			console.log(tool.priceFormat('10000',2))
 		},
 		onShow: function() {
 			console.log('App Show')
