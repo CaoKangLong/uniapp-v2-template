@@ -21,7 +21,7 @@ uni.$u.config.unit = 'rpx'
 Vue.config.productionTip = false
 App.mpType = 'app'
 const app = new Vue({
-  i18n,
+  // i18n,
   store,
   ...App
 })
